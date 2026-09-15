@@ -9,7 +9,6 @@ public class Main {
         int bestPrime = -1;
         int maxOnes = -1;
 
-        // Перебираємо числа від 2 до n
         for (int i = 2; i <= n; i++) {
             if (isPrime(i)) {
                 int ones = countBits(i);
